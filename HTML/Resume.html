@@ -4,166 +4,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreshant Wagle — Resume</title>
+    <meta name="description"
+        content="Resume page for Shreshant Wagle, demonstrating CET138 skills and project experience." />
+    <title>Resume | Shreshant Wagle</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../CSS/index.css">
 </head>
 
-<body>
-
-    <div class="topbar">
-        <a href="../index.html" class="home-link">🏠 Home</a>
-        <a href="../HTML/Portfolio.html">Portfolio</a>
-        <a href="#" class="topbar-current">Resume</a>
-        <button class="print-btn" onclick="window.print()">🖨️ Print / Save PDF</button>
-    </div>
-
-    <div class="page">
-
-        <!-- HEADER -->
-        <div class="resume-header">
-            <div class="header-name">Shreshant Wagle</div>
-            <div class="header-role">Full Stack Development Student &nbsp;·&nbsp; CET138</div>
-            <div class="header-contacts">
-                <div class="contact-chip"><span class="icon">📧</span> shreeshantwagle@gmail.com</div>
-                <div class="contact-chip"><span class="icon">🔗</span> ../HTML/Portfolio.html</div>
-                <div class="contact-chip"><span class="icon">📍</span> Nepal</div>
-                <div class="contact-chip"><span class="icon">💼</span> https://github.com/shreshantwagle-05</div>
+<body class="nav-alt">
+    <header class="topbar">
+        <div class="container header-inner">
+            <div class="topbar-nav">
+                <a href="../index.html">Home</a>
+                <a href="../HTML/Portfolio.html">Portfolio</a>
+                <a class="active" href="../HTML/Resume.html">Resume</a>
             </div>
+            <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
         </div>
+    </header>
 
-        <div class="resume-body">
-
-            <!-- PROFILE -->
-            <div class="section">
-                <div class="section-title">Profile</div>
-                <p class="profile-text">
-                    Motivated Full Stack Development student studying on the CET138 module. Skilled in building
-                    structured, styled, and interactive web pages using HTML, CSS, Bootstrap, and JavaScript.
-                    Understands how frontend technologies connect to backend systems and able to explain and demonstrate
-                    each layer of the full stack with working code examples.
-                </p>
-            </div>
-
-            <!-- TECHNICAL SKILLS -->
-            <div class="section">
-                <div class="section-title">Technical Skills</div>
-                <table class="skills-table">
-                    <tr>
-                        <td class="skill-label">HTML5</td>
-                        <td class="skill-desc">Semantic structure, headings, paragraphs, lists, forms, links, images,
-                            accessibility (alt text)</td>
-                    </tr>
-                    <tr>
-                        <td class="skill-label">CSS3</td>
-                        <td class="skill-desc">Selectors, box model, Flexbox layout, colours, typography, external
-                            stylesheets, responsive design</td>
-                    </tr>
-                    <tr>
-                        <td class="skill-label">Bootstrap 5</td>
-                        <td class="skill-desc">12-column grid, CDN setup, navbar, cards, buttons, responsive
-                            breakpoints, utility classes</td>
-                    </tr>
-                    <tr>
-                        <td class="skill-label">JavaScript</td>
-                        <td class="skill-desc">Variables, functions, DOM manipulation, event listeners, querySelector,
-                            textContent, style updates</td>
-                    </tr>
-                    <tr>
-                        <td class="skill-label">Full Stack</td>
-                        <td class="skill-desc">Client-server model, HTTP request cycle, frontend/backend separation,
-                            Node.js &amp; MongoDB concepts</td>
-                    </tr>
-                </table>
-            </div>
-
-            <!-- EDUCATION -->
-            <div class="section">
-                <div class="section-title">Education</div>
-                <div class="entry">
-                    <div class="entry-header">
-                        <div class="entry-title">CET138 — Full Stack Development</div>
-                        <div class="entry-date">2024 – Present</div>
+    <main class="resume-page">
+        <section class="resume-panel resume-intro fade-up">
+            <div>
+                <p class="eyebrow">Resume</p>
+                <div style="display:flex;align-items:center;gap:18px;">
+                    <img src="../Resources/Img-18.jpg" alt="Shreshant Wagle"
+                        style="width:96px;height:96px;object-fit:cover;border-radius:12px;">
+                    <div>
+                        <h1>Shreshant Wagle</h1>
+                        <p class="resume-copy">A motivated CET138 student focused on full stack web development, with
+                            experience in HTML, CSS, Bootstrap, and JavaScript. This resume highlights skills,
+                            education, and the portfolio project built for the module.</p>
                     </div>
-                    <div class="entry-sub">Higher Education — Computing &amp; IT &nbsp;·&nbsp; Nepal</div>
-                    <p class="profile-text">Module covering the core technologies of modern web development — HTML, CSS,
-                        Bootstrap, JavaScript — and how they connect in a full stack architecture. Assessment delivered
-                        as a working ePortfolio website with live code demonstrations.</p>
                 </div>
             </div>
-
-            <!-- PORTFOLIO PROJECT -->
-            <div class="section">
-                <div class="section-title">Portfolio Project</div>
-                <div class="entry">
-                    <div class="entry-header">
-                        <div class="entry-title">CET138 ePortfolio Website</div>
-                        <div class="entry-date">2025</div>
-                    </div>
-                    <div class="entry-sub">Personal Academic Project &nbsp;·&nbsp; HTML / CSS / Bootstrap / JavaScript
-                    </div>
-                    <ul class="entry-bullets">
-                        <li>Built a multi-page responsive portfolio website to demonstrate knowledge of each full stack
-                            web technology</li>
-                        <li>Designed a home page (index.html) and detailed portfolio page with five interactive sections
-                            and live demos</li>
-                        <li>Implemented a live JavaScript quiz with DOM manipulation — feedback appears instantly
-                            without page reload</li>
-                        <li>Built a working Bootstrap restaurant demo ("The Good Plate") using only Bootstrap class
-                            names — no custom CSS</li>
-                        <li>Applied CSS Flexbox and the box model to style a personal profile page with a circular photo
-                            and button links</li>
-                        <li>Used semantic HTML5 elements throughout with proper alt text, heading hierarchy, and
-                            accessible structure</li>
-                    </ul>
+            <div class="resume-contact">
+                <p><strong>Email:</strong> <a href="mailto:shreeshantwagle@gmail.com">shreeshantwagle@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/shreshantwagle-05" target="_blank"
+                        rel="noopener">github.com/shreshantwagle-05</a></p>
+                <p><strong>Location:</strong> Nepal</p>
+                <p><strong>Portfolio:</strong> <a href="../index.html">Visit website</a></p>
+                <div class="resume-badges">
+                    <span class="resume-badge">HTML5</span>
+                    <span class="resume-badge">CSS3</span>
+                    <span class="resume-badge">JavaScript</span>
+                    <span class="resume-badge">Bootstrap</span>
                 </div>
             </div>
+        </section>
 
-            <!-- KEY COMPETENCIES -->
-            <div class="section">
-                <div class="section-title">Key Competencies</div>
-                <div class="comp-grid">
-                    <div class="comp-item"><span class="comp-dot"></span>Responsive web design principles</div>
-                    <div class="comp-item"><span class="comp-dot"></span>Clean, readable code structure</div>
-                    <div class="comp-item"><span class="comp-dot"></span>Frontend–backend separation</div>
-                    <div class="comp-item"><span class="comp-dot"></span>Problem-solving and self-directed learning
-                    </div>
-                    <div class="comp-item"><span class="comp-dot"></span>Debugging with browser developer tools</div>
-                    <div class="comp-item"><span class="comp-dot"></span>Communicating technical concepts clearly</div>
+        <section class="resume-panel fade-up">
+            <h2>Profile</h2>
+            <p class="resume-text">I build structured and responsive web pages with a strong focus on readability,
+                usability, and consistency. My ePortfolio demonstrates real code examples and interactive elements from
+                the CET138 module.</p>
+        </section>
+
+        <section class="resume-panel fade-up">
+            <h2>Education</h2>
+            <div class="resume-card">
+                <h3>CET138 — Full Stack Development</h3>
+                <p class="resume-meta">2024 – Present · Computing &amp; IT · Nepal</p>
+                <p class="resume-text">This module covers web development fundamentals, responsive design, Bootstrap,
+                    JavaScript, and how the frontend connects to backend systems.</p>
+            </div>
+        </section>
+
+        <section class="resume-panel fade-up">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="resume-card">
+                    <h3>Web Markup</h3>
+                    <p>Semantic HTML structure, accessible content, links, images, and form elements.</p>
+                </div>
+                <div class="resume-card">
+                    <h3>Styling</h3>
+                    <p>CSS layout, spacing, cards, typography, responsive grids, and polished visual design.</p>
+                </div>
+                <div class="resume-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM updates, event handling, and interactive features using native JavaScript.</p>
                 </div>
             </div>
+        </section>
 
-            <!-- TECHNOLOGIES -->
-            <div class="section">
-                <div class="section-title">Technologies</div>
-                <div class="tags">
-                    <span class="tag">HTML5</span>
-                    <span class="tag">CSS3</span>
-                    <span class="tag">Bootstrap 5</span>
-                    <span class="tag">JavaScript ES6</span>
-                    <span class="tag">Flexbox</span>
-                    <span class="tag">DOM API</span>
-                    <span class="tag">Node.js (intro)</span>
-                    <span class="tag">MongoDB (concepts)</span>
-                    <span class="tag">Git</span>
-                    <span class="tag">VS Code</span>
-                    <span class="tag">Browser Dev Tools</span>
-                    <span class="tag">CDN / APIs</span>
+        <section class="resume-panel fade-up">
+            <h2>Portfolio Project</h2>
+            <div class="resume-card">
+                <h3>CET138 ePortfolio Website</h3>
+                <p class="resume-meta">2026 · Academic Assignment</p>
+                <ul class="resume-list">
+                    <li>Built a multi-page portfolio with a polished homepage, project section, and resume page.</li>
+                    <li>Included a working JavaScript quiz demo with real-time feedback.</li>
+                    <li>Created a Bootstrap design sample to demonstrate responsive components.</li>
+                    <li>Used clean CSS, modern spacing, and smooth transitions for a professional finish.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resume-panel fade-up">
+            <h2>Key competencies</h2>
+            <div class="values-list">
+                <div class="resume-card">
+                    <h3>Responsive design</h3>
+                    <p>Ensuring layouts work well on mobile, tablet, and desktop.</p>
+                </div>
+                <div class="resume-card">
+                    <h3>Clean structure</h3>
+                    <p>Organized files, reusable classes, and semantic HTML for readability.</p>
+                </div>
+                <div class="resume-card">
+                    <h3>Interactive UI</h3>
+                    <p>JavaScript that improves user experience without page refreshes.</p>
                 </div>
             </div>
+        </section>
 
-        </div><!-- /resume-body -->
+        <footer class="resume-footer fade-up">
+            View the full portfolio for more details and live demos of every section.
+        </footer>
+    </main>
 
-        <div class="resume-footer">
-            Full ePortfolio available at ../HTML/Portfolio.html &nbsp;·&nbsp; CET138 Module Assessment &nbsp;·&nbsp;
-            Shreshant Wagle
-        </div>
-
-    </div><!-- /page -->
-
-    <script src="../JS/scripts.js"></script>
+    <script src="../JS/script.js"></script>
 </body>
 
 </html>

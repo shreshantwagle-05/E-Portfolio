@@ -4,290 +4,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shreshant Wagle — CET138 Portfolio</title>
+    <meta name="description"
+        content="Modern CET138 ePortfolio for Shreshant Wagle with web development showcase and live demos." />
+    <title>Shreshant Wagle | CET138 Portfolio</title>
     <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="CSS/index.css">
 </head>
 
-<body>
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                Shreshant Wagle <span class="brand-badge">CET138</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav ms-auto gap-1">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#covers">What's Covered</a></li>
-                    <li class="nav-item"><a class="nav-link active-nav" href="./HTML/Portfolio.html">View Full Portfolio
-                            →</a></li>
-                </ul>
-            </div>
+<body class="nav-alt">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand compact" href="index.html">Shreshant Wagle<span>CET138</span></a>
+            <nav class="main-nav">
+                <a href="#about">About</a>
+                <a href="#features">Features</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                <a class="cta-link" href="HTML/Portfolio.html">Full Portfolio</a>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="hero-grid"></div>
-        <div class="hero-glow1"></div>
-        <div class="hero-glow2"></div>
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6 hero-content">
-                    <div class="hero-eyebrow">CET138 Full Stack Development</div>
-                    <h1><span class="grad">Shreshant</span><br>Wagle</h1>
-                    <div class="hero-role">Full Stack Development Student</div>
-                    <p class="hero-desc">
-                        Welcome to my CET138 ePortfolio. This site demonstrates my understanding of full stack web
-                        technologies — from writing HTML structure to styling with CSS, building with Bootstrap, and
-                        adding JavaScript interactivity.
-                    </p>
-                    <div class="hero-btns">
-                        <a href="./HTML/Portfolio.html" class="btn-primary-hero">View Full Portfolio →</a>
-                        <a href="#portfolio" class="btn-ghost-hero">What's Inside</a>
+    <main>
+        <section class="hero hero-home fade-up">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">CET138 Full Stack Development</p>
+                    <h1>Smart web pages with polished design, modern layout, and interactive demos.</h1>
+                    <p class="hero-text">This ePortfolio shows HTML structure, CSS styling, Bootstrap responsiveness,
+                        JavaScript behavior, and a professional resume all in one clean site.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="HTML/Portfolio.html">Explore Full Portfolio</a>
+                        <a class="btn btn-outline" href="HTML/Resume.html">View Resume</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div>
+                            <strong>5</strong>
+                            <span>Sections</span>
+                        </div>
+                        <div>
+                            <strong>3</strong>
+                            <span>Live Demos</span>
+                        </div>
+                        <div>
+                            <strong>1</strong>
+                            <span>Portfolio one</span>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="photo-wrap fade-up">
-                        <div class="photo-ring">
-                            <div class="photo-inner">
-                                <!--
-                TO ADD YOUR PHOTO:
-                Replace the placeholder below with:
-                <img src="your-photo.jpg" alt="Shreshant Wagle">
-              -->
-                                <div class="photo-placeholder">
-                                    <div class="icon">🧑‍💻</div>
-                                    <div>Add your photo here<br><small>Replace with &lt;img src="photo.jpg"&gt;</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="photo-badge">✓ CET138 Student</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- ABOUT STRIP -->
-    <section class="about-strip" id="about">
-        <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-7 fade-up">
-                    <h2>About This Portfolio</h2>
-                    <p>
-                        This ePortfolio was created as part of the CET138 Full Stack Development module. It covers the
-                        core technologies used to build modern websites — HTML for structure, CSS for styling, Bootstrap
-                        for responsive layouts, and JavaScript for interactivity. Each section includes a written
-                        explanation, a code example, and a live working demo.
-                    </p>
-                </div>
-                <div class="col-lg-5">
-                    <div class="row g-3 text-center fade-up">
-                        <div class="col-4">
-                            <div class="stat-box">
-                                <div class="stat-num">5</div>
-                                <div class="stat-label">Technologies</div>
-                            </div>
+                <div class="hero-panel fade-up">
+                    <div class="hero-panel-inner">
+                        <img src="Resources/Img-18.jpg" alt="Shreshant Wagle" class="profile-photo"
+                            style="height:120px;width:120px;object-fit:cover;border-radius:12px;margin-bottom:8px;">
+                        <div class="badge">Live Portfolio Demo</div>
+                        <h2>Shreshant Wagle</h2>
+                        <p class="hero-panel-text">CET138 Full Stack Development student building responsive websites
+                            with HTML, CSS, Bootstrap, and JavaScript.</p>
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
                         </div>
-                        <div class="col-4">
-                            <div class="stat-box">
-                                <div class="stat-num">3</div>
-                                <div class="stat-label">Live Demos</div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="stat-box">
-                                <div class="stat-num">4</div>
-                                <div class="stat-label">Sections</div>
-                            </div>
+                        <div class="hero-panel-cta">
+                            <a class="btn btn-primary btn-small" href="HTML/Portfolio.html">View Sections</a>
+                            <a class="btn btn-outline btn-small" href="HTML/Resume.html">View Career</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- PORTFOLIO SECTIONS -->
-    <section class="sections-area" id="portfolio">
-        <div class="container">
-            <div class="fade-up">
-                <div class="section-label">What's Inside</div>
-                <h2 class="sections-title">This Portfolio Covers</h2>
-                <p class="sections-sub">Each section of the portfolio explains a key web technology, shows real working
-                    code, and includes a live demo you can interact with.</p>
+        <section class="section section-alt fade-up" id="about">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Why this portfolio</p>
+                    <h2>Complete work that explains core web technologies.</h2>
+                </div>
+                <div class="feature-grid">
+                    <article class="feature-card">
+                        <span>📄</span>
+                        <h3>HTML section</h3>
+                        <p>Structured pages with semantic content, accessible images, navigation, and forms.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span>🎨</span>
+                        <h3>CSS section</h3>
+                        <p>Modern styling, spacing, typography, and responsive layout using custom CSS.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span>⚡</span>
+                        <h3>Bootstrap section</h3>
+                        <p>Responsive grids, navbars, cards and buttons built with Bootstrap classes.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span>🔧</span>
+                        <h3>JavaScript section</h3>
+                        <p>Interactive demos, quiz feedback, and dynamic UI behavior powered by JS.</p>
+                    </article>
+                </div>
             </div>
-            <div class="row g-4">
+        </section>
 
-                <div class="col-md-6 col-lg-4 fade-up">
-                    <a href="./HTML/Portfolio.html#html" class="port-card">
-                        <div class="port-card-icon">📄</div>
-                        <div class="port-card-eyebrow">Section 01</div>
-                        <h3>HTML — Structure &amp; Content</h3>
-                        <p>The skeleton of every webpage. Learn how HTML tags, headings, paragraphs, links, images,
-                            lists, and forms work together to structure content.</p>
-                        <span class="port-card-link">View HTML section</span>
+        <section class="section fade-up" id="features">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Site highlights</p>
+                    <h2>Smooth transitions and polished content across every page.</h2>
+                </div>
+                <div class="showcase-grid">
+                    <article class="showcase-card">
+                        <h3>Animated sections</h3>
+                        <p>Elements fade in as you scroll, giving the portfolio a sleek, modern feel.</p>
+                    </article>
+                    <article class="showcase-card">
+                        <h3>Responsive design</h3>
+                        <p>The website adapts seamlessly to mobile, tablet, and desktop viewports.</p>
+                    </article>
+                    <article class="showcase-card">
+                        <h3>Interactive components</h3>
+                        <p>The portfolio includes live quiz and UI components that respond instantly.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section fade-up" id="examples">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Examples</p>
+                    <h2>Ready-to-run mini demos</h2>
+                    <p>Small interactive items demonstrating key skills — try them from here or open the full pages.</p>
+                </div>
+                <div class="examples-grid">
+                    <div class="example-card card-variant-1">
+                        <strong>Live Quiz</strong>
+                        <h4>Interactive JavaScript</h4>
+                        <p>Click an answer to get instant feedback from a small demo on the portfolio page.</p>
+                        <a class="btn btn-outline btn-small" href="HTML/Portfolio.html#javascript">Try Quiz</a>
+                    </div>
+                    <div class="example-card card-variant-2">
+                        <strong>Bootstrap Cards</strong>
+                        <h4>Responsive Layout</h4>
+                        <p>A compact Bootstrap demo showing cards, badges and responsive layout.</p>
+                        <a class="btn btn-outline btn-small" href="HTML/Portfolio.html#bootstrap">View Demo</a>
+                    </div>
+                    <div class="example-card card-variant-3">
+                        <strong>Profile Card</strong>
+                        <h4>CSS Styling</h4>
+                        <p>A simple profile card built with CSS demonstrating image, text and call-to-action.</p>
+                        <a class="btn btn-outline btn-small" href="HTML/Portfolio.html#html">See Markup</a>
+                    </div>
+                    <div class="example-card card-variant-2">
+                        <strong>Mini CSS Demo</strong>
+                        <h4>CSS Snippets</h4>
+                        <p>Small CSS patterns — gradients, cards, and responsive utilities you can reuse.</p>
+                        <a class="btn btn-outline btn-small" href="HTML/Portfolio.html#css">Open CSS Example</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt fade-up" id="portfolio">
+            <div class="container">
+                <div class="section-head">
+                    <p class="eyebrow">Portfolio</p>
+                    <h2>Explore the full project and see what was built.</h2>
+                </div>
+                <div class="portfolio-grid">
+                    <a class="portfolio-card" href="HTML/Portfolio.html#fullstack">
+                        <div class="card-icon">🌐</div>
+                        <div class="card-content">
+                            <h3>Full Stack Overview</h3>
+                            <p>Understand how frontend, backend, and data work together.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio-card" href="HTML/Portfolio.html#html">
+                        <div class="card-icon">📄</div>
+                        <div class="card-content">
+                            <h3>HTML Fundamentals</h3>
+                            <p>Learn the structure behind every page and how content is organized.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio-card" href="HTML/Portfolio.html#css">
+                        <div class="card-icon">🎨</div>
+                        <div class="card-content">
+                            <h3>CSS Styling</h3>
+                            <p>See how design, spacing, and typography are handled with CSS.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio-card" href="HTML/Portfolio.html#bootstrap">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-content">
+                            <h3>Bootstrap Demo</h3>
+                            <p>View responsive components and layout built with Bootstrap.</p>
+                        </div>
+                    </a>
+                    <a class="portfolio-card" href="HTML/Portfolio.html#javascript">
+                        <div class="card-icon">🧠</div>
+                        <div class="card-content">
+                            <h3>JS Interaction</h3>
+                            <p>Try the quiz and experience dynamic page updates in action.</p>
+                        </div>
                     </a>
                 </div>
-
-                <div class="col-md-6 col-lg-4 fade-up">
-                    <a href="./HTML/Portfolio.html#css" class="port-card">
-                        <div class="port-card-icon">🎨</div>
-                        <div class="port-card-eyebrow">Section 02</div>
-                        <h3>CSS — Styling &amp; Layout</h3>
-                        <p>CSS transforms a plain HTML document into a visually designed page. Covers selectors, the box
-                            model, colours, fonts, spacing, and Flexbox layout.</p>
-                        <span class="port-card-link">View CSS section</span>
-                    </a>
-                </div>
-
-                <div class="col-md-6 col-lg-4 fade-up">
-                    <a href="./HTML/Portfolio.html#bootstrap" class="port-card">
-                        <div class="port-card-icon">⚡</div>
-                        <div class="port-card-eyebrow">Section 03</div>
-                        <h3>Bootstrap — Responsive Framework</h3>
-                        <p>Bootstrap's 12-column grid, ready-made components (navbar, cards, buttons), and CDN setup.
-                            Includes a live restaurant demo built entirely with Bootstrap classes.</p>
-                        <span class="port-card-link">View Bootstrap section</span>
-                    </a>
-                </div>
-
-                <div class="col-md-6 col-lg-4 fade-up">
-                    <a href="./HTML/Portfolio.html#javascript" class="port-card">
-                        <div class="port-card-icon">🔧</div>
-                        <div class="port-card-eyebrow">Section 04</div>
-                        <h3>JavaScript — Interactivity</h3>
-                        <p>JavaScript gives pages behaviour. Covers variables, functions, DOM manipulation, and event
-                            listeners. Includes a live correct/wrong quiz demo powered entirely by JS.</p>
-                        <span class="port-card-link">View JavaScript section</span>
-                    </a>
-                </div>
-
-                <div class="col-md-6 col-lg-4 fade-up">
-                    <a href="./HTML/Portfolio.html#fullstack" class="port-card">
-                        <div class="port-card-icon">🌐</div>
-                        <div class="port-card-eyebrow">Section 05</div>
-                        <h3>Full Stack — How It All Connects</h3>
-                        <p>How the frontend and backend work together — the browser, server, and database layers
-                            explained. Traces a real request through every layer of the full stack.</p>
-                        <span class="port-card-link">View Full Stack section</span>
-                    </a>
-                </div>
-
-                <div class="col-md-6 col-lg-4 fade-up">
-                    <a href="./HTML/Portfolio.html" class="port-card port-card-featured">
-                        <div class="port-card-icon">🚀</div>
-                        <div class="port-card-eyebrow">Full Portfolio</div>
-                        <h3>View Everything Together</h3>
-                        <p>See the complete ePortfolio — all five sections, code examples, live demos, and reflections
-                            on a single page.</p>
-                        <span class="port-card-link">Open full portfolio</span>
-                    </a>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- WHAT THIS PORTFOLIO COVERS -->
-    <section class="covers-area" id="covers">
-        <div class="container">
-            <div class="fade-up">
-                <div class="section-label covers-label">What You'll Find</div>
-                <h2 class="covers-title">What This Portfolio Demonstrates</h2>
-                <p class="covers-sub">Every section is built from original, working code that matches the written report
-                    for CET138.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="cover-item fade-up">
-                        <div class="cover-icon">📄</div>
-                        <div class="cover-text">
-                            <h5>HTML Structure and Semantic Elements</h5>
-                            <p>Headings, paragraphs, lists, links, images, and forms — the building blocks of every
-                                webpage. A complete personal profile page is built and explained step by step.</p>
-                        </div>
-                    </div>
-                    <div class="cover-item fade-up">
-                        <div class="cover-icon">🎨</div>
-                        <div class="cover-text">
-                            <h5>CSS Styling, Box Model and Flexbox</h5>
-                            <p>The same profile page is then styled using an external CSS file — covering selectors,
-                                colours, spacing, and layout with Flexbox. The live result updates on screen.</p>
-                        </div>
-                    </div>
-                    <div class="cover-item fade-up">
-                        <div class="cover-icon">⚡</div>
-                        <div class="cover-text">
-                            <h5>Bootstrap Grid and Responsive Components</h5>
-                            <p>A restaurant homepage ("The Good Plate") is built using only Bootstrap class names —
-                                demonstrating the 12-column grid, navbar, cards, and buttons.</p>
-                        </div>
-                    </div>
+        <section class="section fade-up" id="contact">
+            <div class="container contact-panel">
+                <div>
+                    <p class="eyebrow">Let’s connect</p>
+                    <h2>Review the complete portfolio and resume.</h2>
+                    <p>This site is built as a full ePortfolio for CET138 with real examples, code snippets, and
+                        interactive demos.</p>
+                    <p class="contact-info"><strong>Email:</strong> <a
+                            href="mailto:shreeshantwagle@gmail.com">shreeshantwagle@gmail.com</a></p>
+                    <p class="contact-info"><strong>GitHub:</strong> <a href="https://github.com/shreshantwagle-05"
+                            target="_blank" rel="noopener">github.com/shreshantwagle-05</a></p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="cover-item fade-up">
-                        <div class="cover-icon">🔧</div>
-                        <div class="cover-text">
-                            <h5>JavaScript DOM Manipulation and Events</h5>
-                            <p>A simple interactive quiz asks "What does HTML stand for?" and gives instant
-                                correct/wrong feedback — demonstrating variables, event listeners, and DOM updates
-                                without any page reload.</p>
-                        </div>
-                    </div>
-                    <div class="cover-item fade-up">
-                        <div class="cover-icon">🌐</div>
-                        <div class="cover-text">
-                            <h5>Full Stack Architecture and Data Flow</h5>
-                            <p>How the browser, server, and database work as a system. The journey of a request through
-                                all layers of the stack is traced and explained with clear diagrams.</p>
-                        </div>
-                    </div>
-                    <div class="cover-item fade-up">
-                        <div class="cover-icon">📝</div>
-                        <div class="cover-text">
-                            <h5>Reflections on Learning and Connections</h5>
-                            <p>Each section ends with a personal reflection — what was surprising, what clicked, common
-                                mistakes, and how each technology connects to the others and to real full stack
-                                projects.</p>
-                        </div>
-                    </div>
+                <div class="contact-buttons">
+                    <a class="btn btn-primary" href="HTML/Portfolio.html">Open Portfolio</a>
+                    <a class="btn btn-outline" href="HTML/Resume.html">Open Resume</a>
                 </div>
             </div>
-            <div class="text-center mt-5 fade-up">
-                <a href="./HTML/Portfolio.html" class="btn-primary-hero">View the Full Portfolio →</a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="row align-items-start g-4">
-                <div class="col-md-6">
-                    <div class="footer-brand">Shreshant Wagle</div>
-                    <div class="footer-sub">CET138 Full Stack Development — ePortfolio</div>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <a href="./HTML/Portfolio.html" class="footer-portfolio-link">View Full Portfolio →</a>
-                </div>
-            </div>
-            <div class="footer-copy">Built for CET138 Module Assessment · Shreshant Wagle</div>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Shreshant Wagle · CET138 Full Stack Development Portfolio</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./JS/script.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 
 </html>
