@@ -346,7 +346,7 @@ section#portfolio {
   display: flex;
   align-items: center;
   gap: 20px;
-  background: white;
+  background: rgb(18, 7, 241);
   padding: 22px;
   border-radius: 18px;
   border: 1px solid var(--border);
@@ -452,11 +452,6 @@ section#examples {
   box-shadow: 0 28px 60px rgba(37, 99, 235, 0.06);
 }
 
-/* Card style variants */
-.card-variant-1 {
-  /* default polished */
-}
-
 .card-variant-2 {
   /* glass */
   background: linear-gradient(
@@ -515,13 +510,13 @@ body.nav-alt .cta-link {
 @media (max-width: 720px) {
   .hero-panel {
     text-align: center;
-    padding: 22px;
+    padding: 25px;
   }
 
   .hero-panel .profile-photo {
-    margin: 0 auto 12px;
-    height: 110px !important;
-    width: 110px !important;
+    margin: 0 auto 15px;
+    height: 180px !important;
+    width: 180px !important;
   }
 
   .brand.compact {
